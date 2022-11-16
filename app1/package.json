@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build:single-spa": "ng build --prod --deploy-url /dist/app1 --output-hashing none",
-    "serve:single-spa": "ng serve --project app1 --disable-host-check --port 4201"
+    "serve:single-spa": "ng serve --project app1-spa --disable-host-check --port 4201"
   },
   "private": true,
   "dependencies": {
