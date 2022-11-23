@@ -4,12 +4,14 @@
   "scripts": {
     "ng": "ng",
     "start": "npm run serve:single-spa",
+    "start:local":"npm run serve:local",
     "build": "npm run build:single-spa",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build:single-spa": "ng build --prod --deploy-url /dist/navbar --output-hashing none",
-    "serve:single-spa": "ng serve --project navbar-spa --disable-host-check --port 4300"
+    "serve:single-spa": "ng serve --project navbar-spa --disable-host-check --port 4300",
+    "serve:local": "ng serve --project app1 --disable-host-check --port 4300"
   },
   "private": true,
   "dependencies": {
