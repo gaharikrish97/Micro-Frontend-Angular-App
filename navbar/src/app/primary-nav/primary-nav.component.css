@@ -1,0 +1,48 @@
+nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	
+}
+	
+nav li {
+	display: inline;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: Cambria, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: red;
+}
+
+nav a:hover {
+	text-decoration: none;
+	font-family: Cambria, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: #000;
+}
+.center {
+    width: 50%;
+    height: 50%;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 15%;
+    
+    margin: auto;
+  }
