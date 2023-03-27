@@ -1,0 +1,25 @@
+p {
+    font-family: Lato;
+  }
+  table {
+    width: 100%;
+  }
+  .d_flex{
+    display: flex;
+    justify-content: center;
+  }
+  button{
+    margin-left: 30px;
+    border-radius: 10px;
+    border: none;
+    color: gray;
+  }
+
+  .search_input>input{
+    background-color: #eff2f5;
+    padding-left: 15px;
+    height: 30px;
+    width: 75%;
+    border-radius: 999px;
+    outline: none;
+  }

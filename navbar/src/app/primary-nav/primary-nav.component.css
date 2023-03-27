@@ -1,7 +1,7 @@
 nav {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 10px;
 	text-align: left;
 	
 }
@@ -11,28 +11,34 @@ nav li {
 }
 
 nav a {
+	padding-left: 10px;
 	text-decoration: none;
-	font-family: Cambria, serif;
-	font-size: 24px;
+	font-size: 18px;
 	font-style: normal;
 	font-weight: normal;
 	text-transform: normal;
 	letter-spacing: normal;
 	line-height: 1.3em;
-	color: red;
+	color: rgb(33, 30, 30);
+	font-size: 20px;
 }
 
 nav a:hover {
 	text-decoration: none;
-	font-family: Cambria, serif;
-	font-size: 24px;
+	font-size: 20px;
 	font-style: normal;
 	font-weight: normal;
 	text-transform: normal;
 	letter-spacing: normal;
 	line-height: 1.3em;
-	color: #000;
+	color: rgb(73, 67, 67);
 }
+
+nav a:active {
+	color: red;
+	
+ }
+
 .center {
     width: 50%;
     height: 50%;

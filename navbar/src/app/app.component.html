@@ -1,2 +1,15 @@
 <navbar-primary-nav></navbar-primary-nav>
+<div style="text-align:center;padding-top:2%;">
+    <mat-form-field [@showHide]="show ? 'show' : 'hide'" floatLabel="never">
+        <div class="d_flex">
+            <div class="search_input">
+                <input style="width: 98%; border: none" matInput [formControl]="searchControl" placeholder="Search music..."
+                    [matAutocomplete]="auto" id="search-input" name="search-input">
+            </div>
+            <button mat-icon-button matSuffix (click)="isOpen()">
+                <mat-icon>search</mat-icon>
+            </button>
+        </div>
+    </mat-form-field>
+</div>
 <router-outlet></router-outlet>
